@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Waitlist - Gardens by Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-section">
+                <img src="images/logo.jpeg" alt="Gardens by Design Logo" class="logo">
+                <span class="brand-name">Gardens by Design</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="waitlist.html" class="active">Join Waitlist</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Join Our Exclusive Waitlist</h1>
+        <p>Be among the first to experience Gardens by Design</p>
+    </section>
+
+    <!-- Waitlist Form Section -->
+    <section class="waitlist-section">
+        <div class="waitlist-container">
+            <div class="waitlist-content">
+                <h2 class="section-title">Secure Your Spot</h2>
+                <p class="waitlist-intro">Join our exclusive waitlist and get early access to Gardens by Design. You'll be notified as soon as we launch, and receive special founding member benefits.</p>
+
+                <form class="waitlist-form" id="waitlistForm">
+                    <!-- Name Field -->
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Full Name">
+                    </div>
+
+                    <!-- Email Field -->
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com">
+                    </div>
+
+                    <!-- Hair Goal Dropdown -->
+                    <div class="form-group">
+                        <label for="hairGoal">What's Your Hair Goal? *</label>
+                        <select id="hairGoal" name="hairGoal" required>
+                            <option value="">-- Select Your Hair Goal --</option>
+                            <option value="hair-growth">Hair Growth</option>
+                            <option value="density-boost">Density Boost</option>
+                            <option value="curl-enhancement">Curl Enhancement</option>
+                            <option value="overall-health">Overall Hair Health</option>
+                            <option value="moisture-retention">Moisture Retention</option>
+                            <option value="scalp-health">Scalp Health</option>
+                            <option value="all-of-the-above">All of the Above</option>
+                        </select>
+                    </div>
+
+                    <!-- Checkbox for Newsletter -->
+                    <div class="form-group checkbox">
+                        <input type="checkbox" id="newsletter" name="newsletter" checked>
+                        <label for="newsletter">Yes, I'd like to receive updates and exclusive offers from Gardens by Design</label>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn btn-gold btn-large">Join Waitlist</button>
+                    <p class="form-note">* Required fields</p>
+                </form>
+
+                <!-- Success Message (Hidden by default) -->
+                <div id="successMessage" class="success-message" style="display: none;">
+                    <h3>🎉 Welcome to the Gardens by Design Family!</h3>
+                    <p>Thank you for joining our waitlist. Check your email for confirmation and exclusive updates about our launch!</p>
+                    <a href="index.html" class="btn btn-secondary">Return Home</a>
+                </div>
+            </div>
+
+            <!-- Benefits Section -->
+            <div class="waitlist-benefits">
+                <h3>Waitlist Member Benefits</h3>
+                <div class="benefits-list">
+                    <div class="benefit-item">
+                        <span class="benefit-number">✨</span>
+                        <div>
+                            <h4>Early Access</h4>
+                            <p>Be the first to shop our collection before general release</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-number">🎁</span>
+                        <div>
+                            <h4>Founding Member Discount</h4>
+                            <p>Exclusive 20% off your first order</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-number">👑</span>
+                        <div>
+                            <h4>VIP Treatment</h4>
+                            <p>Exclusive member-only offers and early notice of new products</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-number">💌</span>
+                        <div>
+                            <h4>Hair Care Tips</h4>
+                            <p>Receive personalized hair care advice and product recommendations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <h4>When will Gardens by Design launch?</h4>
+                <p>We're working hard to bring you the best products. You'll be notified as soon as we launch!</p>
+            </div>
+            <div class="faq-item">
+                <h4>Will I be charged for joining the waitlist?</h4>
+                <p>No, joining the waitlist is completely free. You'll only be charged when you make a purchase.</p>
+            </div>
+            <div class="faq-item">
+                <h4>What's included in the Founding Member Discount?</h4>
+                <p>Founding members get 20% off their first order on any products from our initial collection.</p>
+            </div>
+            <div class="faq-item">
+                <h4>Can I share my referral code?</h4>
+                <p>Yes! Share your unique link with friends and get exclusive rewards for each signup.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Gardens by Design</h4>
+                <p>Premium natural hair care designed for 4C curls.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="waitlist.html">Join Waitlist</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: hello@gardensbydesign.com</p>
+                <p>Follow us on social media</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Gardens by Design. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Waitlist form submission
+        document.getElementById('waitlistForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const hairGoal = document.getElementById('hairGoal').value;
+            
+            // Validate form
+            if (name && email && hairGoal) {
+                // Hide form and show success message
+                document.getElementById('waitlistForm').style.display = 'none';
+                document.getElementById('successMessage').style.display = 'block';
+                
+                // Store data (in a real application, this would be sent to a server)
+                console.log('Waitlist signup:', { name, email, hairGoal });
+            }
+        });
+    </script>
+</body>
+</html>
